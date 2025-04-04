@@ -1,4 +1,4 @@
-package com.example.apprestarios.components
+package com.example.appmedisync.components
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable

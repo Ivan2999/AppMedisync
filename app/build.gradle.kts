@@ -1,3 +1,5 @@
+import org.gradle.kotlin.dsl.implementation
+
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
@@ -59,5 +61,8 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
     implementation(platform("com.google.firebase:firebase-bom:33.10.0"))
-    implementation("com.google.firebase:firebase-analytics")
+    implementation("com.google.firebase:firebase-ktx")
+    implementation("com.google.firebase:firebase-firestore-ktx:25.1.3")
+    implementation ("com.google.firebase:firebase-auth-ktx")
+    implementation ("androidx.compose.material:material-icons-extended-android:1.7.8")
 }

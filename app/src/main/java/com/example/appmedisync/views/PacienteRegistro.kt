@@ -30,7 +30,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.example.appmedisync.R
-import com.example.apprestarios.components.MainButton
+import com.example.appmedisync.components.MainButton
 
 //@Preview
 @Composable
